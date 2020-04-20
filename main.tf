@@ -5,7 +5,7 @@ module "make_a_vm" {
   version = "1.0.2"
 
   os = "cenetos"
-  size = "t2.large"
+  size = "t2.small"
   tag_name = "testvm"
   tag_owner = "ajames"
   tag_ttl = 72
